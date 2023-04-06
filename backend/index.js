@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+const Sib = require('sib-api-v3-sdk')
 const sendinblueTransport = require("nodemailer-sendinblue-transport");
 require("dotenv").config();
 
