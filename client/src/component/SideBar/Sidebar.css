@@ -1,0 +1,38 @@
+.sidebar-container {
+  display: flex;
+  background-color: #333;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 230px;
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.expand-sidebar-icon {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.expand-sidebar-icon p svg {
+  background-color: #19092c;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: all 0.8s ease-in-out;
+}
+
+@media (max-width: 520px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,70 @@
+.contact {
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+.contact-form-image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 20px;
+}
+
+.contact-form {
+  margin: 20px 10px;
+}
+
+.contact-form input {
+  height: 50px !important;
+  border: 1px solid goldenrod !important;
+}
+
+.contact-form textarea {
+  resize: none !important;
+  height: 120px !important;
+  border: 1px solid goldenrod !important;
+}
+
+.custom-select {
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid goldenrod !important;
+  outline: none;
+}
+
+.custom-select option {
+  height: 50px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button p {
+  background-color: #93d54a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.submit-button p:hover {
+  background-color: #93d54ad1;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.submit-button p svg {
+  margin-left: 6px;
+}
+
+.warning{
+  font-size: 13px;
+  color: red;
+}

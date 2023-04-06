@@ -1,0 +1,53 @@
+.container {
+  margin-bottom: 30px !important;
+}
+
+.project-items {
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-items:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.title p {
+  transition: all 0.7s ease-in-out;
+}
+.tech-used {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #4d74d6;
+  color: #fff;
+  border-radius: 90px;
+  padding: 8px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.link-button {
+  margin: 20px;
+}
+
+.link-button a {
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.link-button a svg:hover {
+  transform: rotate(360deg);
+  transition: ease-in-out 2s all;
+}
