@@ -5,6 +5,30 @@ import ProjectList from "./ProjectList";
 const Project = () => {
   const Data = [
     {
+      name: "Google Docs Clone",
+      description:
+        "Created google docs clone with the help of NextJs and styled with Tailwind css. User have to login with their google account, storing data in firebase and docs interface with the help of react-draft-wysiwyg library. Authentication is done with the help of next-auth.",
+      hostedLink: "https://github.com/Asharzama/Google-docs-clone",
+      githubLink: "https://github.com/Asharzama/Google-docs-clone",
+      techUsed: ["Firebase", "NextJs", "Tailwindcss", "Next-auth", "Draftjs"],
+    },
+    {
+      name: "Quiz App",
+      description:
+        "Created a quiz app with help of React and TypeScript and styled with Styled Components. User can restart the game once the game is over as well as see the score of the quiz.",
+      hostedLink: "https://gleeful-horse-aa8945.netlify.app/",
+      githubLink: "https://github.com/Asharzama/quiz-app",
+      techUsed: ["ReactJs", "TypeScript", "Styled Components"],
+    },
+    {
+      name: "Hang-Man Game",
+      description:
+        "Created a hangman game with the help of vite and typescript. Where it displays the hangman, the keyboard as well as the result of the game. The input can be taken with the help of keyboard in the game as well as actual keyboard.",
+      hostedLink: "https://luminous-platypus-321e51.netlify.app/",
+      githubLink: "https://github.com/Asharzama/hangman",
+      techUsed: ["Vite", "TypeScript", "Css"],
+    },
+    {
       name: "Registration Page",
       description:
         "This page is a registration page that allows a user to create an account. The user is required to input their first name, last name, email, phone number, and password. The page uses styled components for styling. The code contains state hooks and functions to handle alert messages when a user leaves a required field empty or enters invalid information. Once the user enters valid information, an account is created, and a success message is displayed.",

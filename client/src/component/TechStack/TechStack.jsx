@@ -22,6 +22,9 @@ import {
   SiJavascript,
   SiStyledcomponents,
   SiHtml5,
+  SiTypescript,
+  SiRedux,
+  SiVite,
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -42,6 +45,9 @@ const TechStack = () => {
     { name: "MongoDB", icon: SiMongodb, color: "#439843" },
     { name: "Express Js", icon: SiExpress, color: "#545556" },
     { name: "JavaScript", icon: SiJavascript, color: "#e8d44d" },
+    { name: "TypeScript", icon: SiTypescript, color: "#2F74C0" },
+    { name: "Vite", icon: SiVite, color: "#8770F6" },
+    { name: "Redux", icon: SiRedux, color: "#7248B6" },
     { name: "Java", icon: FaJava, color: "#317e9d" },
     { name: "Python", icon: FaPython, color: "#f7cc42" },
     { name: "Bootstrap", icon: FaBootstrap, color: "#7811f2" },
